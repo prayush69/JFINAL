@@ -7,7 +7,7 @@ const path=require('path')
 
 const mainRouter=require('./routes/main')
 
-const serverless=require('serverless-http')
+
 
 //PORT
 dotenv.config({path:"config/config.env"})
@@ -52,6 +52,6 @@ connectDB()
 
 // })
 
-module.exports.handler=serverless(app)
+
 
 
